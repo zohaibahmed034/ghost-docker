@@ -1,5 +1,5 @@
 # Use official Ghost image
-FROM ghost:6-alpine
+FROM 190219743432.dkr.ecr.ap-south-1.amazonaws.com/ghost-base:6-alpine
 
 # Set environment variables
 ENV url=http://localhost:2368
